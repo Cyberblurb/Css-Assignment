@@ -1,0 +1,40 @@
+/*header styling*/
+header {color: black;
+  text-align: center;
+  font-family: Impact, Fantasy;
+}
+
+/*heading styling*/
+h3 {text-align: center;
+color: black;
+  font-family: Impact,fantasy;
+font-size: large;
+}
+
+
+/*image styling*/
+img { object-fit: cover;
+width: 100%;
+}
+
+/*body style*/ 
+body {background: skyblue;
+  color: black;
+}
+
+    /*table styling*/
+  table {
+  width: 80%;
+  border-collapse: collapse;
+margin: 30px;
+  }
+  
+  th {background-color: black;
+    color: white;
+  }
+  
+/*button styling*/
+button {background-color: black;
+color: white;
+padding: 5px 10px;
+}

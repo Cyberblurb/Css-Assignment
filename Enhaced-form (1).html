@@ -1,0 +1,123 @@
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing Plan</title>
+</head>
+<Header>
+ <h1>Our pricing plan</h1>
+ <p>Choose a plan that suits your needs. Compare features and Sign up below</p>
+  
+</Header>
+<main>
+    <!--List-->
+    <section>
+    <h3>Plan Benefits</h3>
+    <p>Basic plan includes:</p>
+    <ul type="disc">
+      <li>Access to core features</li>
+      <li>Community support</li>
+      <li>Free updates</li>
+    </ul>
+    <p>Premium plan extras:</p>
+    <ul>
+      <li>Priority support</li>
+      <li>Custom reports</li>
+      <li>Dedicated Account manager</li>
+    </ul>
+    </section>
+    
+    <!-- Table-->
+    <table border="1" style="width: 80%; border-collapse: collapse;" >
+      <caption><h3>Pricing Comparison</h3> </caption>
+      <tr>
+        <th>Features</th>
+        <th>Basic</th>
+        <th>Standard</th>
+        <th>Premium</th>
+      </tr>
+      <tr>
+        <td>Price</td>
+        <td>£10</td>
+        <td>£100</td>
+        <td>£1000</td>
+      </tr>
+      <tr>
+        <td>Storage</td>
+        <td>10GB</td>
+        <td>50GB</td>
+        <td>100GB</td>
+      </tr>
+      <tr>
+        <td>Support </td>
+        <td>Email only</td>
+        <td>Email + Chat</td>
+        <td>24/7 support </td>
+      </tr>
+    </table>
+    <!-- Form-->
+    <form>
+      <h3>Sign up now</h3>
+      <fieldset>
+        <legend>Personal Information </legend>
+        <label for="fname">Full name:</label>
+<input type="text" name="username" required><br>
+<p></p>
+      <label for="Email">Email :</label>
+<input type="email" id="email" name ="Enter your email" required><br>
+<p></p>
+        <label for="number">Phone number:</label>
+<input type="tel" name="phone number" required>
+<br>
+      </fieldset>
+      <p></p>
+      <fieldset>
+        <legend>Account Setup</legend>
+         <label for="username">Username: </label>
+<input type="text" name="username" required><br>
+<p></p>
+        <label for="password">Password:</label>
+<input type="password" minlength="4" maxlength="16" required><br>
+<p></p>
+        <label for="password">Confirm Password:</label>
+<input type="text" minlength="4" maxlength="16" required>
+      </fieldset>
+      <p></p>
+      <fieldset>
+        <legend>Plan Section</legend>
+       <label>
+         <input type="radio" name="plan" value="basic" required> Basic
+         </label>
+          <label>
+             <input type="radio" name="plan" value="standard"> Standard
+            </label>
+            <label>
+              <input type="radio" name="plan" value="premium">Premium
+            </label><br>
+            <p></p>
+          <label for="Country">Country:
+          </label>
+        
+          <select name="country">
+            <option value=" Select">Select </option>
+            <option value="US">United States </option>
+            <option value="Nigeria">Nigeria </option>
+            <option value="Uk">United Kingdom </option>
+          </select>
+      </fieldset>
+      <p></p>
+      <fieldset disabled>
+        <legend>Agreement </legend>
+                 <input type="checkbox" name="terms"  required> I agree to the terms and conditions
+                 </fieldset>
+                 <button type="submit" align="center">Submit </button>
+    </form>
+</main>
+<body>
+  
+</body>
+
+</html>
